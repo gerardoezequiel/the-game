@@ -1,3 +1,6 @@
+@import url("https://use.typekit.net/ngb8trb.css");
+/////*TIPS DE PEDRO*/////
+
 * {
   box-sizing: border-box;
 }
@@ -13,5 +16,93 @@ picture {
 
 body {
   font-size: 100%;
-  background-color: aquamarine;
+  background-color: whitesmoke;
+}
+* body {
+  height: 20vh;
+  margin: 0;
+  
+}
+h1 {
+  font-family: hydrophilia-iced, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: -14rem;
+  
+}
+
+.grid-wrapper {
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.grid {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 10%;
+  justify-content: center;
+  width: 17rem;
+  height: 17rem;
+}
+
+.grid div {
+  border: 0.1rem solid lightgrey;
+  ba
+  flex-grow: 1;
+  height: 9%;
+  width: 9%;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 5em;
+}
+
+.game-board {
+  border: solid 2px;
+}
+
+p {
+  font-family: hydrophilia-iced, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.play-button {
+  background-color: rgb(207, 64, 54);
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-family: hydrophilia-iced, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.mini-grid {
+  margin-left: 4em;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:whitesmoke;
+  border-color: ;
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}
+
+div.taken {
+  border-color: rgba(245, 245, 245, 0);
 }
